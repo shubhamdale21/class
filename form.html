@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        body{
+            body {
+                background-image: url("img1.jpg");
+                background-size: cover; /* Ensures the image covers the whole background */
+                background-repeat: no-repeat; /* Prevents the image from repeating */
+                background-position: center; /* Centers the image */
+            }
+        }
+        form{
+            width: 60%;
+            margin: 0 auto;
+            color: black;
+            padding: 2rem;
+            border-radius: 10px;
+            background-color: grey;
+
+        }
+        input{
+            width: 100%;
+            padding: 10px;
+        }
+        select{
+            width: 100%;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+    <h1> College Admission form</h1>
+   
+    </div> <form >
+              <label for="fname">first name</label>
+                <input type="text" id="fname" name="fname" placeholder="enter your first name"><br>
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="fname" placeholder="enter your last name"><br>
+                
+                <label for="email">Email Id</label>
+                <input type="email" id="email" name="email" placeholder="enter your email"><br>
+
+                <label for="number">Mobile Number</label>
+                <input type="tel" id="number" name="phone" placeholder="enter your number"><br><br>
+
+                <label for="address"> Address</label>
+                <textarea rows="3" cols=70" id="address" placeholder="enter your address"></textarea><br><br>
+
+                <label for="field">Choos your Field</label>
+                <select id="field" name="field">
+                    <option value="computer">Computer</option>
+                    <option value="machanical">Machanical</option>
+                    <option value="civil">Civil</option>
+                    <option value="agriculture">Agriculture</option>
+                </select><br><br>
+                
+                <label for="gender" >Gender</label><br>
+                <select id="gender" name="gender" >
+                    <option value="male">Male</option>
+                    <option value="Female">Female</option>
+                </select><br><br>
+                
+                <input type="submit" value="submit">
+            </form>
+</div>
+
+</video>
+   
+   
+       
+</body>
+</html>
